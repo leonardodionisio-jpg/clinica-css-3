@@ -22,14 +22,19 @@ p {
   color: rgb(148, 255, 41);
 }
 
-h1, h2, .subtitulo {
-  font-family: 'Helvetica', sans-serif;
-  color: #194676;
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+h2{
+    color: brown;
 }
 
 main p {
   color: aliceblue;
 }
+
 
 footer p {
   color: rgb(20, 183, 192);
