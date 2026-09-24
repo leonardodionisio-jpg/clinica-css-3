@@ -1,3 +1,4 @@
+/* 1. RESET UNIVERSAL E ESTILOS BASE */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   color: aliceblue;
 }
 
+/* 2. ELEMENTOS DE TEXTO E LINKS*/
 nav {
   text-align: center;
 }
@@ -22,15 +24,17 @@ p {
   color: rgb(148, 255, 41);
 }
 
+/* 3. REGRA COMPARTILHADA (TÍTULOS E SUBTÍTULOS) */
 h1, h2, .subtitulo {
   font-family: 'Helvetica', sans-serif;
   color: #194676;
+  background-color: cadetblue;
 }
 
+/* 4. CONTEÚDO ESPECÍFICO (MAIN E FOOTER) */
 main p {
   color: aliceblue;
 }
-
 
 footer p {
   color: rgb(20, 183, 192);
